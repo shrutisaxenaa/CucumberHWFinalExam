@@ -1,0 +1,144 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3312358901,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Page1StepDefination.methodName()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Setting-up Sky Blue Background",
+        "description": "",
+        "id": "changing-the-background-color-of-page1;setting-up-sky-blue-background",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 96309299,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "button for changing background to sky blue color for page1",
+            "match": {
+              "location": "Page1StepDefination.buttonforChangingBackgroundToSkyBlueColorForPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3074480699,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click on the button1",
+            "match": {
+              "location": "Page1StepDefination.userClickOnTheButton1()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 85599,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the background color will change to sky blue",
+            "match": {
+              "location": "Page1StepDefination.theBackgroundColorWillChangeToSkyBlue()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@Scenario1"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1735573400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Page1StepDefination.methodName()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Setting-up white Background",
+        "description": "",
+        "id": "changing-the-background-color-of-page1;setting-up-white-background",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "button for changing background to white color for page1",
+            "match": {
+              "location": "Page1StepDefination.buttonForChangingBackgroundToWhiteColorForPage1()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3111349100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User click on the button2",
+            "match": {
+              "location": "Page1StepDefination.userClicksOnTheButton2()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 54400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the background color will change to white",
+            "match": {
+              "location": "Page1StepDefination.theBackgroundColorWillChangeToWhite()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@Scenario2"
+          }
+        ]
+      }
+    ],
+    "name": "Changing the Background color of page1",
+    "description": "",
+    "id": "changing-the-background-color-of-page1",
+    "keyword": "Feature",
+    "uri": "features/page1.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Feature1"
+      }
+    ]
+  }
+]
